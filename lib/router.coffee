@@ -8,4 +8,8 @@ Router.map ->
     path: "/"
   @route "research",
     path: "/research"
+  @route "courses",
+    path: "/courses"
+  @route "cv",
+    path: "/cv"
   return
