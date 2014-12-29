@@ -8,3 +8,4 @@ meteor-platform
 iron:router
 coffeescript
 particle4dev:sass
+fortawesome:fontawesome
