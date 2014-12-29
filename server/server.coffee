@@ -19,3 +19,13 @@ if Publications.find().count() is 0
     ]
     abstract: "Keytar Truffaut cliche bitters twee. Vinyl photo booth quinoa Portland, slow-carb flannel mixtape organic kogi selvage single-origin coffee art party roof party. Lo-fi hella tote bag, DIY locavore you probably haven't heard of them Echo Park actually Wes Anderson Schlitz try-hard."
     date: "1944/11/14"
+
+  Publications.insert
+    title: "The Verbose History of LBJ"
+    authors: [
+      "Robert Caro"
+      "The Internet"
+      "Eric Yingling"
+    ]
+    abstract: "Migas sartorial locavore before they sold out four dollar toast, Echo Park mixtape disrupt mlkshk occupy kitsch leggings. Twee swag try-hard, roof party church-key tilde Carles brunch chia skateboard."
+    date: "1991/11/12"
