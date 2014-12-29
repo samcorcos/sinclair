@@ -1,3 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+$font-stack: "Lato", sans-serif;
+
+
 /* ///////////////////////////////////////////////////
 
 PAPERBACK
@@ -399,7 +403,8 @@ a {
 
 .btn {
   display: inline-block;
-  margin-top: 100px;
+  margin-left: 30%;
+  margin-top: 50%;
   font-size: 1.2em;
   font-weight: 700;
   padding: 0.1em 0.8em;
@@ -407,7 +412,7 @@ a {
   -webkit-transform: rotate(20deg);
   -moz-transform: rotate(20deg);
   transform: rotate(20deg);
-  font-family: "Indie Flower", serif;
+  font: 400 1.5em $font-stack;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
