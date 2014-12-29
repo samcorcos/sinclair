@@ -285,3 +285,22 @@ a:hover {
   text-align: center;
   margin-top: 25%;
 }
+
+li {
+  h3 {
+    padding-top: 1em;
+    font: 300 2em $font-stack;
+    color: #555;
+    margin: 0;
+  }
+  h4 {
+    font: 300 italic 1em $font-stack;
+    color: #555;
+    margin: 1rem 0;
+  }
+  p {
+    font: 300 1em $font-stack;
+    color: #797979;
+  }
+
+}

@@ -4,23 +4,24 @@
       <div class="grid__col grid__col--3-of-5 grid__col--centered">
         <h2 style="text-align:center;">Research</h2>
       </div>
+      <div class="grid__col grid__col--1-of-12"></div>
+
+      {{#each publications}}
+        <div class="grid__col grid__col--5-of-12">{{> paperback}}</div>
+      {{/each}}
+
     </div>
   </div>
-
-  <ul>
-  {{#each publications}}
-    {{> paperback}}
-  {{/each}}
-  </ul>
 </template>
+
+
 
 
 <template name="paperback">
   <li>
-    <figure class='book'>
+    <figure style="display:block;margin:auto;" class='book'>
 
       <!-- Front -->
-
       <ul class='paperback_front'>
         <li>
           <!-- <span class="ribbon">NEW</span> -->
@@ -32,7 +33,6 @@
 
 
       <!-- Pages -->
-
       <ul class='ruled_paper'>
         <li></li>
         <li>
@@ -44,18 +44,15 @@
       </ul>
 
       <!-- Back -->
-
       <ul class='paperback_back'>
         <li>
           <img src="paper.jpg" alt="" width="100%" height="100%">
         </li>
         <li></li>
       </ul>
-      <figcaption>
-        <h1>{{title}}o</h1>
-        <span>{{authors}}</span>
-        <p>{{abstract}}</p>
-      </figcaption>
     </figure>
+    <h3 style="padding-top:1em;">{{title}}</h3>
+    <h4>{{authors}}</h4>
+    <p style="font-size:1.25em;">{{abstract}}</p>
   </li>
 </template>
