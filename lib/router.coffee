@@ -6,4 +6,6 @@ Router.configure
 Router.map ->
   @route "home",
     path: "/"
+  @route "research",
+    path: "/research"
   return
