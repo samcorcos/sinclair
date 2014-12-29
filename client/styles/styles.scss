@@ -253,3 +253,19 @@ a:hover {
   background-color: $blue;
   height: 0.5rem;
 }
+
+.flex-white {
+  height: auto;
+  background-color: white;
+}
+
+.home-content {
+  h2 {
+    font: 300 3em $font-stack;
+    color: #555;
+  }
+  p {
+    font: 300 1.5em $font-stack;
+    color: #797979;
+  }
+}
