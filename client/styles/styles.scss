@@ -261,7 +261,7 @@ a:hover {
   background-color: white;
 }
 
-.home-content {
+.home-content, .research-content {
   h2 {
     font: 300 3em $font-stack;
     color: #555;
@@ -270,4 +270,18 @@ a:hover {
     font: 300 1.5em $font-stack;
     color: #797979;
   }
+}
+
+/* figcaption {
+  h1 {
+    font: 300 1em \$font-stack;
+    color: #555;
+  }
+} */
+
+.paper-title {
+  font: 300 1em $font-stack;
+  color: #555;
+  text-align: center;
+  margin-top: 25%;
 }
