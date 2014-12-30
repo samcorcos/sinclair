@@ -77,6 +77,7 @@ $blue: #47A3DA;
   line-height: 2.5;
   padding: 0 1.25em;
   white-space: nowrap;
+  text-decoration: none !important;
 }
 
 .tabs nav a:hover {
@@ -332,4 +333,37 @@ li {
   visibility:visible;
   opacity:1;
   transition-delay:0s;
+}
+
+.login-button-form-submit {
+  background-color: $blue !important;
+  border: 1px solid darken($blue, 10%) !important;
+}
+
+
+.post {
+  h2 {
+    a {
+      color: $blue;
+      &:hover {
+        color: lighten($blue, 15%);
+      }
+    }
+  }
+}
+
+.post-tags {
+  p {
+    a {
+      text-decoration: underline;
+      color: $blue;
+      &:hover {
+        color: lighten($blue, 15%);
+      }
+    }
+  }
+}
+
+.the-content {
+  color: #797979;
 }

@@ -29,3 +29,24 @@ if Publications.find().count() is 0
     ]
     abstract: "Migas sartorial locavore before they sold out four dollar toast, Echo Park mixtape disrupt mlkshk occupy kitsch leggings. Twee swag try-hard, roof party church-key tilde Carles brunch chia skateboard."
     date: "1991/11/12"
+
+
+if Meteor.users.find().count() is 0
+  Accounts.createUser
+    username: "admin"
+    password: "adminpassword"
+
+  Accounts.createUser
+    username: "Sinclair"
+    password: "sinclairpassword"
+
+  Meteor.users.update
+    username: "admin",
+    $set:
+      roles: ["blogAdmin"
+      "blogAuthor"]
+
+  Meteor.users.update
+    username: "Sinclair",
+    $set:
+      roles: ["blogAuthor"]
