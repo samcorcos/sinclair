@@ -305,3 +305,26 @@ li {
   }
 
 }
+
+.grid {
+  div {
+    img {
+      max-width: 100%;
+      border-radius: 5px;
+      display: block;
+      margin: auto;
+    }
+  }
+}
+
+.hide-div {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+}
+
+.show-div {
+  visibility:visible;
+  opacity:1;
+  transition-delay:0s;
+}
