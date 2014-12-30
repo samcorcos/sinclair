@@ -261,10 +261,15 @@ a:hover {
   background-color: white;
 }
 
-.home-content, .research-content, .courses-content {
+.home-content, .research-content, .courses-content, .cv-content {
   h2 {
     font: 300 3em $font-stack;
     color: #555;
+  }
+  h3 {
+    font: 300 2.5em $font-stack;
+    color: #555;
+    margin: 0;
   }
   p {
     font: 300 1.5em $font-stack;
